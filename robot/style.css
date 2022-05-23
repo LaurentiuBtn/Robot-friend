@@ -4,22 +4,11 @@ h1 {
 	font-family: "Comic sans MS", 'Roboto', sans-serif;
 }
 
-
-
-.robots {
-	flex-wrap: wrap;
-	display: inline-block;
+.robots{
 	justify-content: center;
-
-}
-
-.head, 
-.left_arm, 
-.torso, 
-.right_arm, 
-.left_leg, 
-.right_leg {
-	 background-color: #116416;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #116416;
 }
 
 .head { 
